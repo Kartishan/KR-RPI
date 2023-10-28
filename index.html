@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="headerContainer">
+            <h1 class="logo">Барахолка</h1>
+            <ul class="ulContainer">
+                <li><a class="el">Гланая</a></li>
+                <li><a class="el">Услуги</a></li>
+                <li><a class="el">Отзывы</a></li>
+                <li><a class="el">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Книга Война и Мир</h1>
+            <p>Это книга известнейшего писателя Росии Л.Н.Толстого продается у нас во многих экземплярах</p>
+        </section>
+        <section class="galleryContainer">
+            <h1>Пример книги</h1>
+            <p class="fullPreviewPhoto">
+              <img class="fullPhoto" src="./photo/Lev1.webp" alt="Фото большое">
+            </p>
+            <p class="photoPreviews">
+                <img class="smallPhoto" src="./photo/Lev2.jpg" alt="Фото маленькое">
+                <img class="smallPhoto" src="./photo/Lev3.webp" alt="Фото маленькое">
+                <img class="smallPhoto" src="./photo/Lev3.webp" alt="Фото маленькое">
+            </p>
+          </section>
+          <section>
+            <button id="modalOpen" class="buttonStyle1">Добавить отзыв на книгу</button>
+          </section>
+          <section>
+            <button id="CommentOpen" class="buttonStyle1">Показать все отзывы</button>
+        </section>
+        <section class="fourthMainContainer">
+            <h2 class="">Отзывы</h2>
+            <div class="fifthContainerGrid fifthContainerGridBackground">
+                <h3 class="">Анатолий</h3>
+                <div class="">
+                    <p class="truncateText">Книги на этом сайте просто бомба</p>
+                    <p>23.10.2023</p>
+                </div>
+            </div>
+            <div class="fifthContainerGrid hidden fifthContainerGridBackgroundV2">
+                <h3 class=" "> Иван</h3>
+                <div class="">
+                    <p class="truncateText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sunt, temporibus alias explicabo dolore repellendus dignissimos corporis tempore dicta exercitationem? Ipsum quo tempora autem, ut beatae eveniet. Aliquam, provident cumque.</p>
+                    <p>23.10.2023</p>
+                </div>
+            </div>
+            <div class="fifthContainerGrid hidden fifthContainerGridBackground">
+                <h3 class=" "> Игорь</h3>
+                <div class="">
+                    <p class="truncateText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, dolores quisquam atque similique rerum dolor neque suscipit fugit reiciendis quibusdam?</p> 
+                    <p>23.10.2023</p>
+                </div>
+            </div>
+        </section>
+          <section>
+            <div class="modalContainer" id="CommentModal">
+                <div class="modalContent">
+                    <button class="closeModal" id="closeModalBtn">X</button>
+                    <form id="Checker">
+                        <h2>Оставьте свой отзыв</h2>
+                        <p>Имя</p>
+                        <div class="inputBox">
+                            <input/>
+                        </div>
+                        <p>Отзыв</p>
+                        <div class="inputBox">
+                            <input/>
+                        </div>
+                        <button class='buttonStyle1' type="submit">Отправить заказ</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <nav class="footerContainer">
+        <ul class="ulContainer">
+            <li><a class="el">Номер телефона: +790834846...</a></li>
+            <li><a class="el">Мы находимся на большой красной 39</a></li>
+            <li><a class="el">insta:@Baraholka</a></li>
+            <li><a class="el"></a></li>
+        </ul>
+    </nav>
+    <script src="./scripts.js"></script>
+</body>
+</html>
